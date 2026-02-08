@@ -1,5 +1,5 @@
 package org.example.entity;
 
-public class CommandType {
-    
+public enum CommandType {
+    PUT , GET , DELETE , START , STOP , EXIT , SHOW
 }
